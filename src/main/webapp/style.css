@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,html {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	height: 12%;
+	width: 100%;
+	background: #7af;
+	color: #fff;
+	line-height: 80px;
+	text-align: center;
+}
+
+nav{
+	height: 83%;
+	width: 15%;
+	background: #000;
+	float:left;
+	line-height: 40px; /*사이간격 띄울 때 패딩마진대신.*/
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer {
+	height: 5%;
+	background: #666;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	clear: both;
+}
+
+section {
+	height: 83%;
+	width: 85%;
+	float: left;
+}
+
+#idxh2 {
+	text-align: center;
+	line-height: 55px;
+}
+
+#tab1 {
+	margin : 0 auto;
+	width: 60%;
+}
+#tab1 th {
+	text-align: center;
+	width: 20%;
+}
+
+#tab2 {
+	margin : 0 auto;
+	width: 95%;
+	
+}
+
+#tab3 {
+	margin : 0 auto;
+	width: 60%;
+	
+}
+
+#inSh2{
+	text-align:center;
+	line-height: 45px;
+}
+#inStd1 {
+    height: 30px;
+    width: 70%;
+}
+
+#btn1 {
+	width: 120px;
+	height: 30px;
+	background: #ccc;
+}
+
+#btn2 {
+	width: 120px;
+	height: 30px;
+	background: #444;
+	color: #fff;
+}
